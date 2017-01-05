@@ -8,13 +8,6 @@ hbot.on('message', (message) => {
     }
 });
 
-
-hbot.on('message', (message) => {
-    if(message.content == '-anime') {
-        message.channel.sendFile('./images/anime.jpg');
-    }
-});
-
 //Generiert bei dem Befehl random Bilder
 hbot.on('message', (message) => {
     if(message.content == '-u18'){
