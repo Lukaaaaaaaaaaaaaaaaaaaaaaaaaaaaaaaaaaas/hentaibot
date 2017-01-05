@@ -76,7 +76,7 @@ hbot.on('message', (message) => {
 
 hbot.on('message', (message) => {
     if(message.content == '-hentai'){
-    var randomHentai = Math.floor((Math.random()*3)+1);
+    var randomHentai = Math.floor((Math.random()*16)+1);
 
     if(randomHentai == 1)
     message.channel.sendMessage('Saimin Class - Episode 1');
@@ -129,4 +129,4 @@ hbot.on('message', (message) => {
 });
 
 //Login-Token hier einfügen
-hbot.login('MjY0NzEwNzA5MTA1OTE3OTUz.C0kioA.xBjmy0MJUsPXHJszt2HznTa2ID4');
+hbot.login('DEIN TOKEN HIER');
